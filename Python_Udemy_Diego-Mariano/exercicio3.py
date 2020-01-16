@@ -12,10 +12,11 @@ secundario = int(secundario_str)
 independente_str = input("Digite o coeficiente independente: ")
 independente = int(independente_str)
 delta = (math.pow(secundario, 2)) - (4 * principal * independente)
+raiz_delta = math.sqrt(delta)
 if delta >= 0:
     #Início da conta
-    raiz_positiva = (-(secundario) + math.sqrt(delta))  / (2 * principal)
-    raiz_negativa = (-(secundario) - math.sqrt(delta))  / (2 * principal)
+    raiz_positiva = (-(secundario) + raiz_delta)  / (2 * principal)
+    raiz_negativa = (-(secundario) - raiz_delta)  / (2 * principal)
     print(raiz_positiva)
     print(raiz_negativa)
 else:

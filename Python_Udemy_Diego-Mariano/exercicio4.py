@@ -14,3 +14,5 @@ while i < 3:
 lista_ordenada = sorted(lista)
 print("Lista desordenada: " + str(lista))
 print("Lista ordenada" + str(lista_ordenada))
+
+#Att: A resposta poderia ter sido feita em algorítmos de ordenação, como selection sort, merge sort, etc...

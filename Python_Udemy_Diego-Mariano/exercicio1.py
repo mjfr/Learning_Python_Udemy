@@ -8,7 +8,7 @@ print("Verificador de maioridade.\nIniciando...")
 idade_usuario = input("Digite a sua idade: ")
 
 if not idade_usuario.isnumeric() and idade_usuario.isdecimal:
-    print("Digite apenas números inteiros")
+    print("Digite apenas números inteiros e positivos")
 else:
     if int(idade_usuario) < maioridade:
         print("Você não atingiu a maioridade")
