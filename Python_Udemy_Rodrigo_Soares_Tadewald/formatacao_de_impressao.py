@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+#Podemos pular linhas com \n dentro da string
+#Podemos inserir tabulações com \t dentro da string
+
+#Site sobre formatação para Python: https://pyformat.info/
+
 print("This is a string")
 
 #substituição por parâmetros (s)
