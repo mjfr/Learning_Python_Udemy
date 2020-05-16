@@ -1,0 +1,2 @@
+Aqui estou escrevendo a partir do Visual Studio Code, usando Python
+Agora, estou adicionando frases ao invés de excluir
