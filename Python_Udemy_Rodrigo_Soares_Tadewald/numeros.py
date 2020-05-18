@@ -15,6 +15,8 @@ print(3/2)
 print(3*2)
 #Potenciação **
 print(3**2)
+#Módulo %                     <- retorna o resto da divisão de dois números
+print(3%2)
 
 #Atribuição de números a variáveis e utilização da mesma
 a = 5
